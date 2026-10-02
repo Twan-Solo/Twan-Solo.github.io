@@ -6,303 +6,577 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <title>Resume | Antoine Solomon</title>
+
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
     <!-- Navigation -->
-    <nav>
-        <a href="index.html">Home</a>
-        <a href="index.html#about">About</a>
-        <a href="index.html#projects">Projects</a>
-        <a href="index.html#experience">Experience</a>
-        <a href="resume.html">Resume</a>
-        <a href="index.html#contact">Contact</a>
+    <nav class="navbar">
+
+        <div class="nav-container">
+
+            <a href="index.html" class="nav-logo">AS</a>
+
+            <div class="nav-links">
+                <a href="index.html">Home</a>
+                <a href="index.html#about">About</a>
+                <a href="index.html#projects">Projects</a>
+                <a href="index.html#experience">Experience</a>
+                <a href="resume.html" class="active-link">Resume</a>
+                <a href="index.html#contact">Contact</a>
+            </div>
+
+        </div>
+
     </nav>
 
-    <main>
+
+    <main class="resume-page">
 
         <!-- Resume Header -->
-        <header>
-            <h1>Antoine Solomon</h1>
-            <h2>Producer | Game Developer | Game Designer</h2>
-        </header>
+        <section class="resume-header">
+
+            <div class="resume-container">
+
+                <p class="section-label">RESUME</p>
+
+                <h1>Antoine Solomon</h1>
+
+                <h2>Producer | Game Developer | Game Designer</h2>
+
+                <div class="gold-line"></div>
+
+                <p class="resume-tagline">
+                    Leadership that delivers.
+                </p>
+
+                <div class="resume-contact">
+
+                    <a href="mailto:twanxsolo@gmail.com">
+                        twanxsolo@gmail.com
+                    </a>
+
+                    <span>|</span>
+
+                    <a href="https://www.linkedin.com/in/antoine-solomon"
+                       target="_blank"
+                       rel="noopener noreferrer">
+                        LinkedIn
+                    </a>
+
+                </div>
+
+            </div>
+
+        </section>
+
 
         <!-- Profile -->
-        <section>
-            <h2>Profile</h2>
+        <section class="resume-section">
 
-            <p>
-                Producer and game development professional with over six years
-                of experience leading multidisciplinary teams across games,
-                interactive experiences, and training simulations. Experienced
-                in production management, product ownership, customer and
-                stakeholder collaboration, instructional design, and game
-                development. Currently pursuing a B.A. in Digital Media: Game
-                Design at the University of Central Florida, while supporting
-                undergraduate Python education as a Teaching Assistant.
-            </p>
+            <div class="resume-container">
+
+                <p class="section-label">PROFILE</p>
+
+                <h2>Professional Profile</h2>
+
+                <div class="gold-line"></div>
+
+                <p class="resume-profile">
+                    Producer and game development professional with over six years
+                    of experience leading multidisciplinary teams across games,
+                    interactive experiences, and training simulations. Experienced
+                    in production management, product ownership, customer and
+                    stakeholder collaboration, instructional design, and game
+                    development. Currently pursuing a B.A. in Digital Media:
+                    Game Design at the University of Central Florida, while
+                    supporting undergraduate Python education as a Teaching
+                    Assistant.
+                </p>
+
+            </div>
+
         </section>
+
 
         <!-- Experience -->
-        <section>
-            <h2>Experience</h2>
+        <section class="resume-section resume-alternate">
 
-            <article>
-                <h3>Undergraduate Teaching Assistant, Python</h3>
-                <h4>University of Central Florida | Computer Science Department</h4>
+            <div class="resume-container">
 
-                <ul>
-                    <li>
-                        Support undergraduate students during Python programming labs.
-                    </li>
-                    <li>
-                        Assist students with programming concepts, debugging,
-                        and problem-solving.
-                    </li>
-                    <li>
-                        Grade assignments and provide feedback on student work.
-                    </li>
-                    <li>
-                        Help students apply course concepts through hands-on
-                        programming exercises.
-                    </li>
-                </ul>
-            </article>
+                <p class="section-label">EXPERIENCE</p>
 
-            <article>
-                <h3>Senior Project Manager / Senior Producer</h3>
-                <h4>Good Game Devs</h4>
+                <h2>Professional Experience</h2>
 
-                <ul>
-                    <li>
-                        Served as Senior Producer and Product Owner for an
-                        interactive drone training simulator showcased at I/ITSEC.
-                    </li>
-                    <li>
-                        Led multidisciplinary development across production,
-                        design, programming, art, and instructional design.
-                    </li>
-                    <li>
-                        Managed product priorities, backlog, scope, schedules,
-                        and deliverables.
-                    </li>
-                    <li>
-                        Managed customer relationships and expectations while
-                        collaborating with stakeholders to define product
-                        requirements and ensure development aligned with
-                        contractual obligations.
-                    </li>
-                </ul>
-            </article>
+                <div class="gold-line"></div>
 
-            <article>
-                <h3>Senior Project Manager / Executive Producer</h3>
-                <h4>302 Interactive</h4>
 
-                <ul>
-                    <li>
-                        Served as Executive Producer for a procedure-based
-                        training simulator supporting PC and Magic Leap 2 AR.
-                    </li>
-                    <li>
-                        Led a cross-functional team of engineers, artists,
-                        designers, UI/UX developers, and QA.
-                    </li>
-                    <li>
-                        Managed project scope, staffing, schedules, and
-                        day-to-day production.
-                    </li>
-                    <li>
-                        Coordinated with clients and end users to define
-                        requirements, gather necessary information and
-                        equipment, and maintain alignment between customer
-                        needs and the development team.
-                    </li>
-                </ul>
-            </article>
+                <!-- UCF -->
+                <article class="resume-entry">
 
-            <article>
-                <h3>Producer II</h3>
-                <h4>GameSim</h4>
+                    <div class="resume-entry-heading">
 
-                <ul>
-                    <li>
-                        Produced projects across location-based entertainment,
-                        training, character systems, and multiplayer games.
-                    </li>
-                    <li>
-                        Managed development backlogs, schedules, milestones,
-                        cross-studio integration, and QA.
-                    </li>
-                    <li>
-                        Developed production pipelines and processes supporting
-                        engineering and design teams.
-                    </li>
-                    <li>
-                        Led customer demonstrations and milestone reviews,
-                        communicating project progress, deliverables, and
-                        development priorities with stakeholders.
-                    </li>
-                </ul>
-            </article>
+                        <div>
+                            <h3>Undergraduate Teaching Assistant, Python</h3>
+                            <h4>
+                                University of Central Florida |
+                                Computer Science Department
+                            </h4>
+                        </div>
 
-            <article>
-                <h3>Technical Producer</h3>
-                <h4>Cubic Simulation Systems</h4>
+                    </div>
 
-                <ul>
-                    <li>
-                        Led multidisciplinary teams developing interactive
-                        game-based training experiences in Unreal Engine.
-                    </li>
-                    <li>
-                        Progressed into lead producer roles across multiple
-                        projects and served as acting Senior Producer for the
-                        Production department.
-                    </li>
-                    <li>
-                        Managed development pipelines, product backlogs,
-                        schedules, sprint planning, and contractual deliverables.
-                    </li>
-                    <li>
-                        Collaborated with customers and internal stakeholders
-                        to manage requirements, communicate project status,
-                        and ensure development teams met contractual
-                        deliverables and program objectives.
-                    </li>
-                </ul>
-            </article>
+                    <ul>
+                        <li>
+                            Support undergraduate students during Python
+                            programming labs.
+                        </li>
 
-            <article>
-                <h3>Subject Matter Expert, Curriculum Development</h3>
-                <h4>Cubic Simulation Systems</h4>
+                        <li>
+                            Assist students with programming concepts,
+                            debugging, and problem-solving.
+                        </li>
 
-                <ul>
-                    <li>
-                        Designed and developed game-based learning courseware
-                        for the U.S. Navy's Littoral Combat Ship program.
-                    </li>
-                    <li>
-                        Developed interactive learning activities, scenarios,
-                        and digital storyboards around defined learning objectives.
-                    </li>
-                    <li>
-                        Collaborated with game developers, artists, engineers,
-                        instructional designers, and subject-matter experts.
-                    </li>
-                    <li>
-                        Supported development planning, prioritization, and
-                        Agile production.
-                    </li>
-                </ul>
-            </article>
+                        <li>
+                            Grade assignments and provide feedback on
+                            student work.
+                        </li>
 
-            <article>
-                <h3>Electronics Instructor</h3>
-                <h4>U.S. Navy | CSCSU Great Lakes</h4>
+                        <li>
+                            Help students apply course concepts through
+                            hands-on programming exercises.
+                        </li>
+                    </ul>
 
-                <ul>
-                    <li>
-                        Instructed more than 500 apprentice-level technicians
-                        through classroom and hands-on laboratory courses.
-                    </li>
-                    <li>
-                        Developed lesson plans, study materials, and technical
-                        curriculum.
-                    </li>
-                    <li>
-                        Provided remediation and student support, contributing
-                        to a 32% decrease in attrition.
-                    </li>
-                    <li>
-                        Conducted curriculum reviews and supervised teams
-                        supporting four technical schoolhouses.
-                    </li>
-                </ul>
-            </article>
+                </article>
 
-            <article>
-                <h3>Additional U.S. Navy Leadership Experience</h3>
-                <h4>Electronics Technician / Maintenance Supervisor</h4>
 
-                <ul>
-                    <li>
-                        Progressed from hands-on technical roles into leadership
-                        positions responsible for managing personnel who
-                        maintained complex electronic, electromechanical, and
-                        communications systems.
-                    </li>
-                    <li>
-                        Supervised three functional areas with 15 technicians.
-                    </li>
-                    <li>
-                        Led personnel, coordinated maintenance operations and
-                        logistics, and ensured equipment readiness across
-                        multiple functional areas.
-                    </li>
-                </ul>
-            </article>
+                <!-- Good Game Devs -->
+                <article class="resume-entry">
+
+                    <div class="resume-entry-heading">
+
+                        <div>
+                            <h3>
+                                Senior Project Manager / Senior Producer
+                            </h3>
+
+                            <h4>Good Game Devs</h4>
+                        </div>
+
+                    </div>
+
+                    <ul>
+                        <li>
+                            Served as Senior Producer and Product Owner for an
+                            interactive drone training simulator showcased at
+                            I/ITSEC.
+                        </li>
+
+                        <li>
+                            Led multidisciplinary development across production,
+                            design, programming, art, and instructional design.
+                        </li>
+
+                        <li>
+                            Managed product priorities, backlog, scope,
+                            schedules, and deliverables.
+                        </li>
+
+                        <li>
+                            Managed customer relationships and expectations while
+                            collaborating with stakeholders to define product
+                            requirements and ensure development aligned with
+                            contractual obligations.
+                        </li>
+                    </ul>
+
+                </article>
+
+
+                <!-- 302 Interactive -->
+                <article class="resume-entry">
+
+                    <div class="resume-entry-heading">
+
+                        <div>
+                            <h3>
+                                Senior Project Manager / Executive Producer
+                            </h3>
+
+                            <h4>302 Interactive</h4>
+                        </div>
+
+                    </div>
+
+                    <ul>
+                        <li>
+                            Served as Executive Producer for a procedure-based
+                            training simulator supporting PC and Magic Leap 2 AR.
+                        </li>
+
+                        <li>
+                            Led a cross-functional team of engineers, artists,
+                            designers, UI/UX developers, and QA.
+                        </li>
+
+                        <li>
+                            Managed project scope, staffing, schedules, and
+                            day-to-day production.
+                        </li>
+
+                        <li>
+                            Coordinated with clients and end users to define
+                            requirements, gather necessary information and
+                            equipment, and maintain alignment between customer
+                            needs and the development team.
+                        </li>
+                    </ul>
+
+                </article>
+
+
+                <!-- GameSim -->
+                <article class="resume-entry">
+
+                    <div class="resume-entry-heading">
+
+                        <div>
+                            <h3>Producer II</h3>
+                            <h4>GameSim</h4>
+                        </div>
+
+                    </div>
+
+                    <ul>
+                        <li>
+                            Produced projects across location-based entertainment,
+                            training, character systems, and multiplayer games.
+                        </li>
+
+                        <li>
+                            Managed development backlogs, schedules, milestones,
+                            cross-studio integration, and QA.
+                        </li>
+
+                        <li>
+                            Developed production pipelines and processes
+                            supporting engineering and design teams.
+                        </li>
+
+                        <li>
+                            Led customer demonstrations and milestone reviews,
+                            communicating project progress, deliverables, and
+                            development priorities with stakeholders.
+                        </li>
+                    </ul>
+
+                </article>
+
+
+                <!-- Cubic Producer -->
+                <article class="resume-entry">
+
+                    <div class="resume-entry-heading">
+
+                        <div>
+                            <h3>Technical Producer</h3>
+                            <h4>Cubic Simulation Systems</h4>
+                        </div>
+
+                    </div>
+
+                    <ul>
+                        <li>
+                            Led multidisciplinary teams developing interactive
+                            game-based training experiences in Unreal Engine.
+                        </li>
+
+                        <li>
+                            Progressed into lead producer roles across multiple
+                            projects and served as acting Senior Producer for
+                            the Production department.
+                        </li>
+
+                        <li>
+                            Managed development pipelines, product backlogs,
+                            schedules, sprint planning, and contractual
+                            deliverables.
+                        </li>
+
+                        <li>
+                            Collaborated with customers and internal stakeholders
+                            to manage requirements, communicate project status,
+                            and ensure development teams met contractual
+                            deliverables and program objectives.
+                        </li>
+                    </ul>
+
+                </article>
+
+
+                <!-- Cubic Curriculum -->
+                <article class="resume-entry">
+
+                    <div class="resume-entry-heading">
+
+                        <div>
+                            <h3>
+                                Subject Matter Expert, Curriculum Development
+                            </h3>
+
+                            <h4>Cubic Simulation Systems</h4>
+                        </div>
+
+                    </div>
+
+                    <ul>
+                        <li>
+                            Designed and developed game-based learning courseware
+                            for the U.S. Navy's Littoral Combat Ship program.
+                        </li>
+
+                        <li>
+                            Developed interactive learning activities, scenarios,
+                            and digital storyboards around defined learning
+                            objectives.
+                        </li>
+
+                        <li>
+                            Collaborated with game developers, artists, engineers,
+                            instructional designers, and subject-matter experts.
+                        </li>
+
+                        <li>
+                            Supported development planning, prioritization, and
+                            Agile production.
+                        </li>
+                    </ul>
+
+                </article>
+
+
+                <!-- Navy Instructor -->
+                <article class="resume-entry">
+
+                    <div class="resume-entry-heading">
+
+                        <div>
+                            <h3>Electronics Instructor</h3>
+                            <h4>U.S. Navy | CSCSU Great Lakes</h4>
+                        </div>
+
+                    </div>
+
+                    <ul>
+                        <li>
+                            Instructed more than 500 apprentice-level technicians
+                            through classroom and hands-on laboratory courses.
+                        </li>
+
+                        <li>
+                            Developed lesson plans, study materials, and
+                            technical curriculum.
+                        </li>
+
+                        <li>
+                            Provided remediation and student support,
+                            contributing to a 32% decrease in attrition.
+                        </li>
+
+                        <li>
+                            Conducted curriculum reviews and supervised teams
+                            supporting four technical schoolhouses.
+                        </li>
+                    </ul>
+
+                </article>
+
+
+                <!-- Additional Navy -->
+                <article class="resume-entry">
+
+                    <div class="resume-entry-heading">
+
+                        <div>
+                            <h3>
+                                Electronics Technician / Maintenance Supervisor
+                            </h3>
+
+                            <h4>U.S. Navy</h4>
+                        </div>
+
+                    </div>
+
+                    <ul>
+                        <li>
+                            Progressed from hands-on technical roles into
+                            leadership positions responsible for managing
+                            personnel who maintained complex electronic,
+                            electromechanical, and communications systems.
+                        </li>
+
+                        <li>
+                            Supervised three functional areas with 15 technicians.
+                        </li>
+
+                        <li>
+                            Led personnel, coordinated maintenance operations
+                            and logistics, and ensured equipment readiness
+                            across multiple functional areas.
+                        </li>
+                    </ul>
+
+                </article>
+
+            </div>
 
         </section>
+
 
         <!-- Education -->
-        <section>
-            <h2>Education</h2>
+        <section class="resume-section">
 
-            <article>
-                <h3>University of Central Florida</h3>
-                <p>B.A. Digital Media: Game Design</p>
-            </article>
+            <div class="resume-container">
 
-            <article>
-                <h3>Valencia College</h3>
-                <p>Associate of Arts</p>
-            </article>
+                <p class="section-label">EDUCATION</p>
+
+                <h2>Education</h2>
+
+                <div class="gold-line"></div>
+
+
+                <div class="education-grid">
+
+                    <article class="education-card">
+
+                        <h3>University of Central Florida</h3>
+
+                        <p>
+                            B.A. Digital Media: Game Design
+                        </p>
+
+                    </article>
+
+
+                    <article class="education-card">
+
+                        <h3>Valencia College</h3>
+
+                        <p>
+                            Associate of Arts
+                        </p>
+
+                    </article>
+
+                </div>
+
+            </div>
+
         </section>
 
+
         <!-- Skills -->
-        <section>
-            <h2>Skills &amp; Tools</h2>
+        <section class="resume-section resume-alternate">
 
-            <h3>Production &amp; Leadership</h3>
-            <p>
-                Production Management | Product Ownership | Project Planning |
-                Requirements Management | Stakeholder Management |
-                Customer Relationship Management | Agile | Scrum | Kanban |
-                Backlog Management | Cross-Functional Team Leadership |
-                Jira | Confluence
-            </p>
+            <div class="resume-container">
 
-            <h3>Game Development</h3>
-            <p>
-                Unity | Unreal Engine | Game Systems |
-                Gameplay Development | Prototyping
-            </p>
+                <p class="section-label">SKILLS</p>
 
-            <h3>Programming</h3>
-            <p>
-                C# | Python | Java | C
-            </p>
+                <h2>Skills & Tools</h2>
 
-            <h3>3D &amp; Creative Tools</h3>
-            <p>
-                Maya | Substance Painter | ZBrush | Adobe Photoshop |
-                Illustrator | Premiere Pro
-            </p>
+                <div class="gold-line"></div>
 
-            <h3>Instruction &amp; Curriculum</h3>
-            <p>
-                Instructional Design | Curriculum Development |
-                Technical Instruction | Game-Based Learning |
-                Student Support
-            </p>
+
+                <div class="skills-grid">
+
+
+                    <article class="skill-card">
+
+                        <h3>Production & Leadership</h3>
+
+                        <p>
+                            Production Management • Product Ownership •
+                            Project Planning • Requirements Management •
+                            Stakeholder Management • Customer Relationship
+                            Management • Agile • Scrum • Kanban •
+                            Backlog Management • Cross-Functional Team
+                            Leadership • Jira • Confluence
+                        </p>
+
+                    </article>
+
+
+                    <article class="skill-card">
+
+                        <h3>Game Development</h3>
+
+                        <p>
+                            Unity • Unreal Engine • Game Systems •
+                            Gameplay Development • Prototyping
+                        </p>
+
+                    </article>
+
+
+                    <article class="skill-card">
+
+                        <h3>Programming</h3>
+
+                        <p>
+                            C# • Python • Java • C
+                        </p>
+
+                    </article>
+
+
+                    <article class="skill-card">
+
+                        <h3>3D & Creative Tools</h3>
+
+                        <p>
+                            Maya • Substance Painter • ZBrush •
+                            Adobe Photoshop • Illustrator • Premiere Pro
+                        </p>
+
+                    </article>
+
+
+                    <article class="skill-card">
+
+                        <h3>Instruction & Curriculum</h3>
+
+                        <p>
+                            Instructional Design • Curriculum Development •
+                            Technical Instruction • Game-Based Learning •
+                            Student Support
+                        </p>
+
+                    </article>
+
+
+                </div>
+
+            </div>
+
         </section>
 
     </main>
 
+
+    <!-- Footer -->
     <footer>
-        <p>&copy; 2026 Antoine Solomon</p>
+
+        <p>
+            &copy; 2026 Antoine Solomon
+        </p>
+
+        <p class="footer-tagline">
+            Leadership that delivers.
+        </p>
+
     </footer>
 
 </body>
