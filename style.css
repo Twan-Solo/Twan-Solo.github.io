@@ -521,121 +521,155 @@ footer {
    RESUME PAGE
 ======================================== */
 
-.resume-page {
+.active-link {
+    color: var(--gold) !important;
+}
+
+
+/* Resume Hero */
+
+.resume-hero {
+    min-height: 70vh;
+
+    display: flex;
+    align-items: center;
+
+    padding: 100px 30px;
+
     background-color: var(--black);
 }
 
-.resume-container {
-    max-width: 1050px;
-    margin: auto;
-}
-
-
-/* Resume Header */
-
-.resume-header {
-    padding: 90px 30px 70px;
-    background-color: var(--black);
-}
-
-.resume-header h1 {
+.resume-hero h1 {
     color: var(--white);
-    font-size: clamp(3rem, 7vw, 5.5rem);
+
+    font-size: clamp(3.5rem, 8vw, 6.5rem);
     line-height: 1;
-    margin-bottom: 15px;
-}
 
-.resume-header h2 {
-    color: var(--light-gray);
-    font-size: clamp(1.2rem, 3vw, 1.8rem);
-    font-weight: normal;
-}
-
-.resume-tagline {
-    color: var(--gold);
-    font-size: 1.4rem;
-    font-weight: bold;
     margin-bottom: 20px;
 }
 
-.resume-contact {
-    display: flex;
-    gap: 15px;
-    flex-wrap: wrap;
-    color: var(--light-gray);
-}
-
-.resume-contact a {
-    transition: 0.3s;
-}
-
-.resume-contact a:hover {
+.resume-hero h2 {
     color: var(--gold);
+
+    font-size: clamp(1.8rem, 4vw, 3rem);
+
+    margin-bottom: 25px;
 }
 
-
-/* Resume Sections */
-
-.resume-section {
-    padding: 80px 30px;
-}
-
-.resume-alternate {
-    background-color: var(--dark-gray);
-}
-
-.resume-section > .resume-container > h2 {
-    color: var(--white);
-    font-size: clamp(2rem, 4vw, 2.8rem);
-}
-
-.resume-profile {
+.resume-hero-description {
     color: var(--light-gray);
-    font-size: 1.1rem;
+
+    max-width: 700px;
+
+    font-size: 1.15rem;
+
+    margin-bottom: 35px;
+}
+
+
+/* Profile */
+
+.resume-profile-card {
+    max-width: 950px;
+
+    background-color: var(--dark-gray);
+
+    border-left: 3px solid var(--gold);
+
+    padding: 35px;
+}
+
+.resume-profile-card p {
+    color: var(--light-gray);
+
+    font-size: 1.05rem;
     line-height: 1.8;
-    max-width: 900px;
-}
 
-
-/* Experience Entries */
-
-.resume-entry {
-    padding: 30px 0;
-    border-bottom: 1px solid #333333;
-}
-
-.resume-entry:first-of-type {
-    padding-top: 0;
-}
-
-.resume-entry:last-child {
-    border-bottom: none;
-}
-
-.resume-entry-heading {
     margin-bottom: 18px;
 }
 
-.resume-entry h3 {
+.resume-profile-card p:last-child {
+    margin-bottom: 0;
+}
+
+
+/* Experience Grid */
+
+.resume-card-grid {
+    display: grid;
+
+    grid-template-columns: repeat(2, 1fr);
+
+    gap: 25px;
+}
+
+
+/* Experience Cards */
+
+.resume-card {
+    background-color: var(--card-gray);
+
+    border: 1px solid #292929;
+    border-top: 3px solid var(--gold);
+
+    padding: 30px;
+
+    transition: 0.3s;
+}
+
+.resume-card:hover {
+    transform: translateY(-5px);
+
+    border-color: var(--gold);
+}
+
+.resume-card-type {
     color: var(--gold);
-    font-size: 1.35rem;
-    margin-bottom: 3px;
+
+    font-size: 0.7rem;
+    font-weight: bold;
+
+    letter-spacing: 2px;
+
+    margin-bottom: 12px;
 }
 
-.resume-entry h4 {
+.resume-card h3 {
     color: var(--white);
+
+    font-size: 1.35rem;
+
+    line-height: 1.3;
+
+    margin-bottom: 8px;
+}
+
+.resume-card h4 {
+    color: var(--gold);
+
     font-size: 1rem;
-    font-weight: normal;
+
+    margin-bottom: 5px;
 }
 
-.resume-entry ul {
-    padding-left: 22px;
-    max-width: 900px;
-}
-
-.resume-entry li {
+.resume-subtitle {
     color: var(--light-gray);
-    margin-bottom: 9px;
+
+    font-size: 0.9rem;
+
+    margin-bottom: 18px;
+}
+
+.resume-card ul {
+    padding-left: 20px;
+
+    margin-top: 20px;
+}
+
+.resume-card li {
+    color: var(--light-gray);
+
+    margin-bottom: 10px;
 }
 
 
@@ -643,18 +677,34 @@ footer {
 
 .education-grid {
     display: grid;
+
     grid-template-columns: repeat(2, 1fr);
+
     gap: 25px;
 }
 
 .education-card {
     background-color: var(--dark-gray);
+
+    border: 1px solid #292929;
     border-left: 3px solid var(--gold);
-    padding: 28px;
+
+    padding: 30px;
+
+    transition: 0.3s;
+}
+
+.education-card:hover {
+    transform: translateY(-5px);
+
+    border-color: var(--gold);
 }
 
 .education-card h3 {
     color: var(--gold);
+
+    font-size: 1.35rem;
+
     margin-bottom: 8px;
 }
 
@@ -667,44 +717,81 @@ footer {
 
 .skills-grid {
     display: grid;
+
     grid-template-columns: repeat(2, 1fr);
+
     gap: 25px;
 }
 
 .skill-card {
     background-color: var(--card-gray);
+
     border: 1px solid #292929;
-    padding: 28px;
+
+    padding: 30px;
+
+    transition: 0.3s;
+}
+
+.skill-card:hover {
+    transform: translateY(-5px);
+
+    border-color: var(--gold);
 }
 
 .skill-card h3 {
     color: var(--gold);
-    margin-bottom: 12px;
+
+    font-size: 1.25rem;
+
+    margin-bottom: 15px;
 }
 
 .skill-card p {
     color: var(--light-gray);
+
     line-height: 1.8;
 }
 
 
-/* Active Navigation */
+/* Contact */
 
-.active-link {
-    color: var(--gold) !important;
+.resume-contact-section {
+    background-color: var(--black);
+}
+
+.resume-contact-text {
+    color: var(--light-gray);
+
+    max-width: 650px;
+
+    font-size: 1.1rem;
 }
 
 
-/* Resume Mobile */
+/* ========================================
+   RESUME TABLET
+======================================== */
+
+@media (max-width: 900px) {
+
+    .resume-card-grid {
+        grid-template-columns: 1fr;
+    }
+
+}
+
+
+/* ========================================
+   RESUME MOBILE
+======================================== */
 
 @media (max-width: 800px) {
 
-    .resume-header {
-        padding: 70px 20px 50px;
-    }
+    .resume-hero {
+        min-height: auto;
 
-    .resume-section {
-        padding: 60px 20px;
+        padding: 80px 20px;
     }
 
     .education-grid {
@@ -720,17 +807,16 @@ footer {
 
 @media (max-width: 500px) {
 
-    .resume-header h1 {
+    .resume-hero h1 {
         font-size: 3rem;
     }
 
-    .resume-contact {
-        flex-direction: column;
-        gap: 5px;
+    .resume-profile-card {
+        padding: 25px;
     }
 
-    .resume-contact span {
-        display: none;
+    .resume-card {
+        padding: 25px;
     }
 
 }
