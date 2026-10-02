@@ -6,299 +6,432 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <title>Antoine Solomon | Portfolio</title>
+
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
     <!-- Navigation -->
-    <nav>
-        <a href="#home">Home</a>
-        <a href="#about">About</a>
-        <a href="#projects">Projects</a>
-        <a href="#experience">Experience</a>
-        <a href="resume.html">Resume</a>
-        <a href="#contact">Contact</a>
+    <nav class="navbar">
+
+        <div class="nav-container">
+
+            <a href="#home" class="nav-logo">AS</a>
+
+            <div class="nav-links">
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#projects">Projects</a>
+                <a href="#experience">Experience</a>
+                <a href="resume.html">Resume</a>
+                <a href="#contact">Contact</a>
+            </div>
+
+        </div>
+
     </nav>
 
 
     <main>
 
-        <!-- Home -->
-        <section id="home">
+        <!-- Hero -->
+        <section id="home" class="hero">
 
-            <h1>Antoine Solomon</h1>
+            <div class="hero-content">
 
-            <h2>Producer | Game Developer | Game Designer</h2>
+                <p class="hero-intro">PRODUCER • DEVELOPER • DESIGNER</p>
 
-            <p>
-                Leadership that delivers!
-            </p>
+                <h1>Antoine Solomon</h1>
+
+                <h2>Leadership that delivers.</h2>
+
+                <p class="hero-description">
+                    Creating games, interactive experiences, and simulations
+                    through production, design, and development.
+                </p>
+
+                <div class="hero-buttons">
+
+                    <a href="#projects" class="button primary-button">
+                        View Projects
+                    </a>
+
+                    <a href="resume.html" class="button secondary-button">
+                        View Resume
+                    </a>
+
+                </div>
+
+            </div>
 
         </section>
 
 
         <!-- About -->
-        <section id="about">
+        <section id="about" class="content-section">
 
-            <h2>About Me</h2>
+            <div class="section-container">
 
-            <p>
-                I'm a producer, game developer, and game designer with experience
-                working across games, interactive experiences, and training
-                simulations. My background includes production management,
-                product ownership, game development, instructional design, and
-                leading multidisciplinary development teams.
-            </p>
+                <p class="section-label">ABOUT</p>
 
-            <p>
-                I'm currently pursuing a B.A. in Digital Media: Game Design at
-                the University of Central Florida.
-            </p>
+                <h2>About Me</h2>
+
+                <div class="gold-line"></div>
+
+                <div class="about-content">
+
+                    <p>
+                        I'm a producer, game developer, and game designer with
+                        experience working across games, interactive experiences,
+                        and training simulations. My background includes production
+                        management, product ownership, game development,
+                        instructional design, and leading multidisciplinary
+                        development teams.
+                    </p>
+
+                    <p>
+                        I'm currently pursuing a B.A. in Digital Media: Game Design
+                        at the University of Central Florida.
+                    </p>
+
+                </div>
+
+            </div>
 
         </section>
 
 
         <!-- Projects -->
-        <section id="projects">
+        <section id="projects" class="content-section alternate-section">
 
-            <h2>Projects</h2>
+            <div class="section-container">
 
+                <p class="section-label">PORTFOLIO</p>
 
-            <!-- Lost Within -->
-            <article>
+                <h2>Projects</h2>
 
-                <h3>Lost Within</h3>
-
-                <p>
-                    Third-person 3D dungeon crawler with roguelike elements
-                    exploring grief through combat, traversal, environmental
-                    storytelling, and a companion-based gameplay system.
-                </p>
-
-                <p>
-                    Project page coming soon.
-                </p>
-
-            </article>
+                <div class="gold-line"></div>
 
 
-            <!-- Purr and Pursuit -->
-            <article>
-
-                <h3>Purr and Pursuit</h3>
-
-                <p>
-                    Mobile game combining incremental gameplay with a
-                    fast-paced runner where players earn Paw Points, interact
-                    with their cat, and chase it through the city when it escapes.
-                </p>
-
-                <p>
-                    Project page coming soon.
-                </p>
-
-            </article>
+                <div class="project-grid">
 
 
-            <!-- Memoirs -->
-            <article>
+                    <!-- Lost Within -->
+                    <article class="project-card">
 
-                <h3>Memoirs</h3>
+                        <div class="project-image">
+                            <span>Lost Within Image</span>
+                        </div>
 
-                <p>
-                    Third-person 3D platformer focused on player-created
-                    traversal, exploration, and collecting puzzle pieces
-                    across different stages of a painter's life.
-                </p>
+                        <div class="project-info">
 
-                <p>
-                    Project page coming soon.
-                </p>
+                            <h3>Lost Within</h3>
 
-            </article>
+                            <p>
+                                Third-person 3D dungeon crawler with roguelike
+                                elements exploring grief through combat, traversal,
+                                environmental storytelling, and a companion-based
+                                gameplay system.
+                            </p>
 
+                            <span class="project-link">
+                                Project Page Coming Soon
+                            </span>
 
-            <!-- Night Shift -->
-            <article>
+                        </div>
 
-                <h3>Night Shift</h3>
-
-                <p>
-                    First-person action, platforming, and survival game where
-                    the player must navigate a dangerous sewer, avoid and stun
-                    mutated rats, collect supplies, and find a way out.
-                </p>
-
-                <p>
-                    Project page coming soon.
-                </p>
-
-            </article>
+                    </article>
 
 
-            <!-- Super Citronaut -->
-            <article>
+                    <!-- Purr and Pursuit -->
+                    <article class="project-card">
 
-                <h3>Super Citronaut</h3>
+                        <div class="project-image">
+                            <span>Purr and Pursuit Image</span>
+                        </div>
 
-                <p>
-                    Mario-style 2.5D platformer featuring traditional
-                    platforming gameplay, obstacles, enemies, and exploration.
-                </p>
+                        <div class="project-info">
 
-                <p>
-                    Project page coming soon.
-                </p>
+                            <h3>Purr and Pursuit</h3>
 
-            </article>
+                            <p>
+                                Mobile game combining incremental gameplay with a
+                                fast-paced runner where players earn Paw Points,
+                                interact with their cat, and chase it through the
+                                city when it escapes.
+                            </p>
+
+                            <span class="project-link">
+                                Project Page Coming Soon
+                            </span>
+
+                        </div>
+
+                    </article>
+
+
+                    <!-- Memoirs -->
+                    <article class="project-card">
+
+                        <div class="project-image">
+                            <span>Memoirs Image</span>
+                        </div>
+
+                        <div class="project-info">
+
+                            <h3>Memoirs</h3>
+
+                            <p>
+                                Third-person 3D platformer focused on player-created
+                                traversal, exploration, and collecting puzzle pieces
+                                across different stages of a painter's life.
+                            </p>
+
+                            <span class="project-link">
+                                Project Page Coming Soon
+                            </span>
+
+                        </div>
+
+                    </article>
+
+
+                    <!-- Night Shift -->
+                    <article class="project-card">
+
+                        <div class="project-image">
+                            <span>Night Shift Image</span>
+                        </div>
+
+                        <div class="project-info">
+
+                            <h3>Night Shift</h3>
+
+                            <p>
+                                First-person action, platforming, and survival game
+                                where the player must navigate a dangerous sewer,
+                                avoid and stun mutated rats, collect supplies, and
+                                find a way out.
+                            </p>
+
+                            <span class="project-link">
+                                Project Page Coming Soon
+                            </span>
+
+                        </div>
+
+                    </article>
+
+
+                    <!-- Super Citronaut -->
+                    <article class="project-card">
+
+                        <div class="project-image">
+                            <span>Super Citronaut Image</span>
+                        </div>
+
+                        <div class="project-info">
+
+                            <h3>Super Citronaut</h3>
+
+                            <p>
+                                Mario-style 2.5D platformer featuring traditional
+                                platforming gameplay, obstacles, enemies, and
+                                exploration.
+                            </p>
+
+                            <span class="project-link">
+                                Project Page Coming Soon
+                            </span>
+
+                        </div>
+
+                    </article>
+
+
+                </div>
+
+            </div>
 
         </section>
 
 
         <!-- Professional Experience -->
-        <section id="experience">
+        <section id="experience" class="content-section">
 
-            <h2>Professional Experience</h2>
+            <div class="section-container">
 
+                <p class="section-label">EXPERIENCE</p>
 
-            <!-- Good Game Devs -->
-            <article>
+                <h2>Professional Experience</h2>
 
-                <h3>Good Game Devs</h3>
-
-                <h4>Senior Project Manager / Senior Producer</h4>
-
-                <ul>
-                    <li>
-                        Interactive Drone Training Simulator,
-                        PC, Unreal Engine 5, showcased at I/ITSEC
-                    </li>
-                </ul>
-
-            </article>
+                <div class="gold-line"></div>
 
 
-            <!-- 302 Interactive -->
-            <article>
-
-                <h3>302 Interactive</h3>
-
-                <h4>Senior Project Manager / Executive Producer</h4>
-
-                <ul>
-                    <li>
-                        Procedure-Based Training Simulator,
-                        PC, Unity
-                    </li>
-
-                    <li>
-                        Procedure-Based Training Simulator,
-                        Magic Leap 2 AR, Unity
-                    </li>
-                </ul>
-
-            </article>
+                <div class="experience-grid">
 
 
-            <!-- GameSim -->
-            <article>
+                    <!-- Good Game Devs -->
+                    <article class="experience-card">
 
-                <h3>GameSim</h3>
+                        <h3>Good Game Devs</h3>
 
-                <h4>Producer II</h4>
+                        <h4>
+                            Senior Project Manager / Senior Producer
+                        </h4>
 
-                <ul>
-                    <li>
-                        Released Location-Based Entertainment Attraction,
-                        Unreal Engine 5
-                    </li>
+                        <ul>
+                            <li>
+                                Interactive Drone Training Simulator,
+                                PC, Unreal Engine 5, showcased at I/ITSEC
+                            </li>
+                        </ul>
 
-                    <li>
-                        Internal Training Project,
-                        Unreal Engine 5
-                    </li>
-
-                    <li>
-                        Procedurally Generated Character Customization and
-                        Creation System, Unreal Engine 5
-                    </li>
-
-                    <li>
-                        Turn-Based Multiplayer RPG,
-                        Unity
-                    </li>
-                </ul>
-
-            </article>
+                    </article>
 
 
-            <!-- Cubic Simulation Systems -->
-            <article>
+                    <!-- 302 Interactive -->
+                    <article class="experience-card">
 
-                <h3>Cubic Simulation Systems</h3>
+                        <h3>302 Interactive</h3>
 
-                <h4>
-                    Technical Producer / Subject Matter Expert,
-                    Curriculum Development
-                </h4>
+                        <h4>
+                            Senior Project Manager / Executive Producer
+                        </h4>
 
-                <ul>
-                    <li>
-                        U.S. Navy Littoral Combat Ship Courseware Program,
-                        PC, Unreal Engine 4
-                    </li>
+                        <ul>
+                            <li>
+                                Procedure-Based Training Simulator,
+                                PC, Unity
+                            </li>
 
-                    <li>
-                        Mobile Commercial Airline Courseware,
-                        Android and iPad, Unreal Engine 4
-                    </li>
+                            <li>
+                                Procedure-Based Training Simulator,
+                                Magic Leap 2 AR, Unity
+                            </li>
+                        </ul>
 
-                    <li>
-                        DARPA Proteus Courseware Feature Support,
-                        PC, Unreal Engine 4
-                    </li>
-
-                    <li>
-                        DARPA Squad X Courseware,
-                        PC, Unreal Engine 4
-                    </li>
-                </ul>
-
-            </article>
+                    </article>
 
 
-            <p>
-                <a href="resume.html">View Full Resume</a>
-            </p>
+                    <!-- GameSim -->
+                    <article class="experience-card">
+
+                        <h3>GameSim</h3>
+
+                        <h4>Producer II</h4>
+
+                        <ul>
+                            <li>
+                                Released Location-Based Entertainment Attraction,
+                                Unreal Engine 5
+                            </li>
+
+                            <li>
+                                Internal Training Project,
+                                Unreal Engine 5
+                            </li>
+
+                            <li>
+                                Procedurally Generated Character Customization
+                                and Creation System, Unreal Engine 5
+                            </li>
+
+                            <li>
+                                Turn-Based Multiplayer RPG,
+                                Unity
+                            </li>
+                        </ul>
+
+                    </article>
+
+
+                    <!-- Cubic -->
+                    <article class="experience-card">
+
+                        <h3>Cubic Simulation Systems</h3>
+
+                        <h4>
+                            Technical Producer / Subject Matter Expert,
+                            Curriculum Development
+                        </h4>
+
+                        <ul>
+                            <li>
+                                U.S. Navy Littoral Combat Ship Courseware Program,
+                                PC, Unreal Engine 4
+                            </li>
+
+                            <li>
+                                Mobile Commercial Airline Courseware,
+                                Android and iPad, Unreal Engine 4
+                            </li>
+
+                            <li>
+                                DARPA Proteus Courseware Feature Support,
+                                PC, Unreal Engine 4
+                            </li>
+
+                            <li>
+                                DARPA Squad X Courseware,
+                                PC, Unreal Engine 4
+                            </li>
+                        </ul>
+
+                    </article>
+
+
+                </div>
+
+
+                <div class="resume-button-container">
+
+                    <a href="resume.html" class="button primary-button">
+                        View Full Resume
+                    </a>
+
+                </div>
+
+            </div>
 
         </section>
 
 
         <!-- Contact -->
-        <section id="contact">
+        <section id="contact" class="content-section contact-section">
 
-            <h2>Contact</h2>
+            <div class="section-container">
 
-            <p>
-                Interested in connecting about game development, production,
-                interactive media, or educational opportunities?
-            </p>
+                <p class="section-label">CONTACT</p>
 
-            <p>
-                Email:
-                <a href="mailto:twanxsolo@gmail.com">
-                    twanxsolo@gmail.com
-                </a>
-            </p>
+                <h2>Let's Connect</h2>
 
-            <p>
-                LinkedIn:
-                <a href="https://www.linkedin.com/in/antoine-solomon"
-                   target="_blank"
-                   rel="noopener noreferrer">
-                    Antoine Solomon
-                </a>
-            </p>
+                <div class="gold-line"></div>
+
+                <p>
+                    Interested in connecting about game development, production,
+                    interactive media, or educational opportunities?
+                </p>
+
+
+                <div class="contact-links">
+
+                    <a href="mailto:twanxsolo@gmail.com"
+                       class="button primary-button">
+                        Email Me
+                    </a>
+
+                    <a href="https://www.linkedin.com/in/antoine-solomon"
+                       target="_blank"
+                       rel="noopener noreferrer"
+                       class="button secondary-button">
+                        LinkedIn
+                    </a>
+
+                </div>
+
+            </div>
 
         </section>
 
@@ -310,6 +443,10 @@
 
         <p>
             &copy; 2026 Antoine Solomon
+        </p>
+
+        <p class="footer-tagline">
+            Leadership that delivers.
         </p>
 
     </footer>
